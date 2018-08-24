@@ -1,5 +1,5 @@
-repo: "columns-of-cards"
-canvasCourse: "web-dev-1"
+repo: 'columns-of-cards'
+canvasCourse: 'web-dev-1'
 
 inherit:
   - naming-restrict-live
@@ -12,14 +12,14 @@ inherit:
   - img-block-100
 
 html:
-  - path: "index.html"
+  - path: 'index.html'
     outline: false
     has:
       - ['link[href*="Open+Sans"]', 'The Google Font, `Open Sans` is missing']
       - ['h2', 'An `<h2>` makes sense in this situation because this is part of a larger website.']
-      - "h3"
-      - "section"
-      - "div"
+      - 'h3'
+      - 'section'
+      - 'div'
       - 'a.btn.btn-small'
     search:
       - 'The Quest for Anderon'
@@ -32,22 +32,24 @@ html:
       - 'Felicity Orta Olivárez'
 
 css:
-  - path: "css/main.css"
+  - path: 'css/main.css'
     has:
       - ['.btn']
       - ['.btn:hover']
       - ['.btn-small']
     search:
-      - "Open Sans"
-      - "float: left"
-      - "width: 25%"
-      - "#f2f2f2"
-      - "#333"
-      - "#e2e2e2"
-      - "#ccc"
-      - "#aaa"
-      - "#999"
+      - 'Open Sans'
+      - 'display: flex'
+      - 'flex-direction: row;'
+      - 'align-items:'
+      - 'width: 25%'
+      - '#f2f2f2'
+      - '#333'
+      - '#e2e2e2'
+      - '#ccc'
+      - '#aaa'
+      - '#999'
 
 screenshots:
-  - path: "index.html"
+  - path: 'index.html'
     sizes: [1400]

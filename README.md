@@ -1,5 +1,5 @@
 ---
-summary: "Use the CSS float property to create a column layout with four cards inside."
+summary: "Use the CSS Flexbox properties to create a column layout with four cards inside."
 time: "1 hour"
 deliverables: "1 HTML file, 1 CSS file, images"
 ---
@@ -41,12 +41,3 @@ Visually match the images in the “screenshots” folder and create the interac
 ## Hand in
 
 Drop this folder into your Markbot application. Make sure to fix all the errors. And submit for grades using Markbot.
-
----
-
-## Optional challenges
-
-*These challenges are here if you’d like to try a little more work—they are for extra experience and learning. They are completely optional and not graded. Show them to me if you’d like—I’d love to see them.*
-
-1. Figure out how to use [Flexbox](https://learn-the-web.algonquindesign.ca/topics/advanced-layout-systems/) and complete the layout using `display: flex` instead of `float`
-2. Using Flexbox, make the buttons align along the bottom.
