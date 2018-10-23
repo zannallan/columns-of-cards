@@ -40,7 +40,6 @@ css:
     search:
       - 'Open Sans'
       - 'display: flex'
-      - 'flex-direction: row;'
       - 'align-items:'
       - 'width: 25%'
       - '#f2f2f2'
