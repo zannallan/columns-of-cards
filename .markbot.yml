@@ -16,11 +16,11 @@ html:
     outline: false
     has:
       - ['link[href*="Open+Sans"]', 'The Google Font, `Open Sans` is missing']
-      - ['h2', 'An `<h2>` makes sense in this situation because this is part of a larger website.']
+      - ['h2', 'An `<h2>` makes sense in this situation because this is part of a larger website']
       - 'h3'
       - 'section'
       - 'div'
-      - 'a.btn.btn-small'
+      - ['a.btn.btn-small', 'Copy & paste the small button code from the “Button styles” assignment']
     search:
       - 'The Quest for Anderon'
       - 'Tabatha R. Barrett'
@@ -40,7 +40,8 @@ css:
     search:
       - 'Open Sans'
       - 'display: flex'
-      - 'align-items:'
+      - 'flex-direction'
+      - 'flex-grow'
       - 'width: 25%'
       - '#f2f2f2'
       - '#333'
