@@ -18,7 +18,7 @@ deliverables: "1 HTML file, 1 CSS file, images"
 ## Details
 
 - *Typefaces:* `Open Sans` (regular, italic, bold)
-- *Text sizes:* `2rem`, `.875rem`
+- *Text sizes:* `2rem`, `1rem`, `.875rem`
 - *Line height:* `1.5`
 - *Colours:* `#f2f2f2`, `#333`, `#e2e2e2`, `#ccc`, `#aaa`, `#999`
 - *Paddings:* `1.5rem`, `.75rem`
