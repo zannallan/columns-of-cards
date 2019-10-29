@@ -50,6 +50,10 @@ img {
   margin: 0 auto 1.5rem;
 }
 
+h1, h2, h3, p, .author {
+  font-family: Open Sans, sans-serif;
+}
+
 h1 {
   text-align: center;
   font-weight: bold;
@@ -58,22 +62,19 @@ h1 {
   font-size: 2rem;
 }
 
-h1, h2, h3, p, .author {
-  font-family: Open Sans, sans-serif;
-}
-
 h2 {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
-.columns p {
+p {
   flex-grow: 1;
   margin: 0 0 1.5rem;
-  font-size: .875rem;
+  font-size: 1rem;
 }
 
 h3 {
+  margin: .2rem 0;
   font-style: italic;
   font-size: .875rem;
   font-weight: normal;
