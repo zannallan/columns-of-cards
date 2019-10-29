@@ -46,12 +46,16 @@ body {
 
 img {
   display: block;
-  width: 100px;
+  width: 100%;
   margin: 0 auto 1.5rem;
 }
 
+.image {
+  width: 100px;
+}
+
 h1, h2, h3, p, .author {
-  font-family: Open Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1 {
