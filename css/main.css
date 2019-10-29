@@ -58,24 +58,25 @@ h1 {
   font-size: 2rem;
 }
 
-h1, h2, p, .author {
+h1, h2, h3, p, .author {
   font-family: Open Sans, sans-serif;
 }
 
 h2 {
   margin: 0;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
-p {
+.columns p {
   flex-grow: 1;
   margin: 0 0 1.5rem;
   font-size: .875rem;
 }
 
-.author {
+h3 {
   font-style: italic;
   font-size: .875rem;
+  font-weight: normal;
 }
 
 .btn {
